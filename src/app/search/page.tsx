@@ -5,6 +5,8 @@ import { useEffect, useState, Suspense } from 'react'
 import Link from 'next/link'
 import type { SearchDocument } from '@/types/content'
 
+const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH || ''
+
 function SearchResultsInner() {
   const searchParams = useSearchParams()
   const query = searchParams.get('q') || ''
@@ -20,7 +22,7 @@ function SearchResultsInner() {
     setLoading(true)
     // Dynamic import Fuse.js for client-side
     import('fuse.js').then(({ default: Fuse }) => {
-      fetch('/search-index.json')
+      fetch(`${BASE_PATH}/search-index.json`)
         .then((res) => res.json())
         .then((data: SearchDocument[]) => {
           const fuse = new Fuse(data, {
