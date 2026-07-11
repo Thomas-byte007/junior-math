@@ -1,0 +1,13 @@
+{
+  "chapters": [
+    { "slug": "quadratic-equations", "title": "一元二次方程", "description": "判别式、求根公式、韦达定理", "order": 1 },
+    { "slug": "quadratic-functions", "title": "二次函数", "description": "顶点式、图像性质、最值问题", "order": 2 },
+    { "slug": "rotation", "title": "旋转", "description": "中心对称、旋转作图", "order": 3 },
+    { "slug": "circles", "title": "圆", "description": "垂径定理、圆周角、切线与圆", "order": 4 },
+    { "slug": "probability", "title": "概率初步", "description": "列举法、树状图、频率估计概率", "order": 5 },
+    { "slug": "inverse-proportion", "title": "反比例函数", "description": "图像性质、k的几何意义", "order": 6 },
+    { "slug": "similarity", "title": "相似", "description": "相似三角形判定、位似", "order": 7 },
+    { "slug": "trigonometry", "title": "锐角三角函数", "description": "正弦余弦正切、解直角三角形", "order": 8 },
+    { "slug": "projection-views", "title": "投影与视图", "description": "三视图、投影", "order": 9 }
+  ]
+}

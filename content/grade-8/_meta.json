@@ -1,0 +1,14 @@
+{
+  "chapters": [
+    { "slug": "triangles", "title": "三角形", "description": "内角和、三边关系、高线中线角平分线", "order": 1 },
+    { "slug": "congruent-triangles", "title": "全等三角形", "description": "SSS/SAS/ASA/AAS/HL 判定", "order": 2 },
+    { "slug": "symmetry", "title": "轴对称", "description": "垂直平分线、等腰三角形、最短路径", "order": 3 },
+    { "slug": "polynomial-factoring", "title": "整式的乘法与因式分解", "description": "幂运算、乘法公式、十字相乘法", "order": 4 },
+    { "slug": "fractions", "title": "分式", "description": "分式运算、分式方程、增根", "order": 5 },
+    { "slug": "quadratic-radicals", "title": "二次根式", "description": "最简二次根式、分母有理化", "order": 6 },
+    { "slug": "pythagorean", "title": "勾股定理", "description": "直角三角形、勾股数、逆定理", "order": 7 },
+    { "slug": "parallelograms", "title": "平行四边形", "description": "矩形、菱形、正方形判定与性质", "order": 8 },
+    { "slug": "linear-functions", "title": "一次函数", "description": "正比例函数、图像、待定系数法", "order": 9 },
+    { "slug": "data-analysis", "title": "数据的分析", "description": "平均数、中位数、众数、方差", "order": 10 }
+  ]
+}

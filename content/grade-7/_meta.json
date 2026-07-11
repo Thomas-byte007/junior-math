@@ -1,0 +1,14 @@
+{
+  "chapters": [
+    { "slug": "rational-numbers", "title": "有理数", "description": "正负数、数轴、相反数、绝对值、有理数运算", "order": 1 },
+    { "slug": "algebraic-expressions", "title": "整式", "description": "单项式、多项式、同类项、去括号", "order": 2 },
+    { "slug": "linear-equations", "title": "一元一次方程", "description": "方程的解、移项、去分母、应用题", "order": 3 },
+    { "slug": "geometry-intro", "title": "几何初步", "description": "点线面体、角、线段", "order": 4 },
+    { "slug": "intersecting-lines", "title": "相交线与平行线", "description": "对顶角、同位角、平行线判定与性质", "order": 5 },
+    { "slug": "real-numbers", "title": "实数", "description": "平方根、立方根、无理数", "order": 6 },
+    { "slug": "coordinate-plane", "title": "平面直角坐标系", "description": "坐标、象限、点的变换", "order": 7 },
+    { "slug": "linear-systems", "title": "二元一次方程组", "description": "代入法、加减法、应用题", "order": 8 },
+    { "slug": "inequalities", "title": "不等式与不等式组", "description": "不等式的性质、解集、数轴表示", "order": 9 },
+    { "slug": "data-collection", "title": "数据的收集、整理与描述", "description": "统计图、频数、直方图", "order": 10 }
+  ]
+}
